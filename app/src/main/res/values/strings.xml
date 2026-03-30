@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Stationery Manager</string>
+    <string name="forgot_password"><u>Forgot password?</u></string>
+    <string name="signup">Don\'t have a account? <b>Sign up</b></string>
+    <string name="edit"><u>Chỉnh sửa</u></string>
+    <string name="delete"><u>Xóa</u></string>
+    <string name="buy"><u>Đặt hàng</u></string>
+    <string name="addCart"><u>Thêm vào giỏ</u></string>
+    <string name="detail"><u>Chi tiết</u></string>
+    <string name="Mssv"><b>MSSV:</b> 2151120056</string>
+    <string name="Fullname"><b>Họ và tên:</b> Trần Thị Thanh Tuyền</string>
+    <string name="Class"><b>Lớp:</b> CN21</string>
+    <string name="Subject"><b>Học phần:</b> Lập trình thiết bị di động</string>
+</resources>

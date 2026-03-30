@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuProductManager"
+        android:title="Quản lý sản phẩm"
+        android:icon="@drawable/baseline_product_24"
+        />
+    <item
+        android:id="@+id/menuUserManager"
+        android:title="Quản lý người dùng"
+        android:icon="@drawable/baseline_account_24"
+        />
+    <item android:title="Khác">
+        <menu>
+            <item
+                android:id="@+id/menuIntroduce"
+                android:title="Giới thiệu"
+                android:icon="@drawable/baseline_introduce_24"
+                />
+            <item
+                android:id="@+id/menuExit"
+                android:title="Thoát"
+                android:icon="@drawable/baseline_exit_24"
+                />
+        </menu>
+    </item>
+</menu>

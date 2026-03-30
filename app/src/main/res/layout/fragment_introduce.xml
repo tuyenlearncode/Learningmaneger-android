@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:src="@mipmap/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:justificationMode="inter_word"
+            android:text="@string/Mssv"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:justificationMode="inter_word"
+            android:text="@string/Fullname"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:justificationMode="inter_word"
+            android:text="@string/Class"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:justificationMode="inter_word"
+            android:text="@string/Subject"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/baseline_phone_24"
+            android:gravity="center_vertical"
+            android:text=" 0969367748"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/baseline_email_24"
+            android:gravity="center_vertical"
+            android:text=" 2151120056@ut.edu.vn"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
